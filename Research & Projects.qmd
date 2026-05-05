@@ -11,6 +11,8 @@ toc: true
 *Supervised by:* Mr. Priom Saha (ISRT, University of Dhaka).<br>
 *Tools:* R (Tidyverse, sf), Geospatial Mapping, Statistical Modeling.
 
+## Working Papers
+
 **Students' Opinion on Party-based Student Politics**<br>
 *Survey Project (DURS) | 2024*<br>
 **Scope:** Analyzed student perspectives on political activities at the University of Dhaka.<br>
@@ -18,9 +20,7 @@ toc: true
 *Role:* Lead Researcher for survey design and data analysis.
 
 
-## Working Papers
-
-*Transformation of Coastal Livelihood*<br>
+**Transformation of Coastal Livelihood**<br>
 An investigation into the shifting economic and environmental landscape of coastal regions in Bangladesh.<br>
 **Focus:** Sustainability and adaptive strategies in the face of climate change.
 
@@ -34,11 +34,11 @@ An investigation into the shifting economic and environmental landscape of coast
 
 ## Leadership & Community
 
-Joint Secretary: Dhaka University Research Society (DURS).
+**General Secretary:** Dhaka University Research Society (DURS).
 
-Data Specialist: Dhaka University Runners Community (DURC).
+**Data Specialist:** Dhaka University Runners Community (DURC).
 
-Technical Training: Facilitating workshops in R, STATA, and SPSS for students and professionals.
+**Technical Training:** Facilitating workshops in R, STATA, and SPSS for students and professionals.
 
 
 

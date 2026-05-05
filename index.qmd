@@ -1,25 +1,132 @@
 ---
 title: "MD. Monowar Hossain"
 about:
-  template: solana  # Options: jolla, trestles, solana, marquee, broadside
-  image: images/DSC_3674.jpg
+  template: solana   # Options: jolla, trestles, solana, marquee, broadside
+  image: images/cover.jpg
   links:
-    - icon: code-slash # This represents RPubs/R projects
+    - icon: code-slash
       text: RPubs
       href: https://rpubs.com/md_monowar_hossain
     - icon: github
       text: Github
-      href: https://github.com/Monowarhossainapon
+      href: https://github.com/mdmonowarhossainapon
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/md-monowar-hossain-apon/
 ---
 
-## About Me
+### Short Biography
+I aspire to become a statistician and data scientist and plan to pursue a Master of Science at the **Institute of Statistical Research and Training (ISRT)**, University of Dhaka. My interest in statistics stems from a fascination with data-driven storytelling, which motivates me to explore diverse areas of statistics, including biostatistics and sociodemographic analysis.
 
-I am a graduate student at the **Institute of Statistical Research and Training (ISRT)**, University of Dhaka, pursuing an **M.S. in Applied Statistics & Data Science**. My academic work is driven by a focus on using advanced statistical methodologies to solve real-world problems, particularly within the realms of public health and sociodemographic analysis.
+---
+
+### Explore My Work
+
+::: {layout="[[1,1,1], [1,1]]"}
+
+::: {.card .text-center .custom-box .box-home}
+[**Home**](index.qmd)
+:::
+
+::: {.card .text-center .custom-box .box-posts}
+[**Posts**](posts.qmd)
+:::
+
+::: {.card .text-center .custom-box .box-training}
+[**Training**](teaching.qmd)
+:::
+
+::: {.card .text-center .custom-box .box-research}
+[**Research & Projects**](Research & Projects.qmd)
+:::
+
+::: {.card .text-center .custom-box .box-about}
+[**About**](about.qmd)
+:::
+
+:::
+
+### Academic Background
+
+| Degree Name | Group/Major Subject | Board/Institute | Country | Passing Year |
+|:--- |:----- |:--- |:--- |:--- |
+| **M.S.** | Applied Statistics & Data Science | ISRT, University of Dhaka | Bangladesh | 2026 (Expected) |
+| **B.S. (Honors)** | Applied Statistics | ISRT, University of Dhaka | Bangladesh | 2025 |
+| **H.S.C.** | Science | Dr. Mahbubur Rahman Mollah College | Bangladesh | 2020 |
+
+<style>
+/* 1. OVERALL PAGE WIDTH */
+.quarto-about-solana {
+  max-width: 900px !important; /* Narrower for better readability */
+  margin: 0 auto !important;
+  display: flex !important;
+  flex-direction: column !important; /* Forces vertical stack */
+  align-items: center !important;
+  padding-top: 0px !important;
+}
+
+/* 2. SMALL TOP IMAGE */
+.about-entity {
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+}
+
+.about-entity img {
+  width: 180px !important; /* SMALL SIZE as requested */
+  height: auto !important;
+  object-fit: cover;
+  border: 3px solid #2c3e50 !important;
+  padding: 4px !important;
+  background-color: white !important;
+  border-radius: 8px !important; /* Circle shape looks great at top */
+}
 
 
 
-My research interests lie at the intersection of **biostatistics** and **computational data science**. I am dedicated to exploring how rigorous inferential models and machine learning techniques can be applied to large-scale datasets to uncover meaningful patterns. At ISRT, I have developed a strong foundation in experimental design, survey sampling, and multivariate analysis, which I aim to apply toward high-impact research in the scientific community.
 
+
+/* 3. DASHBOARD BOXES & ROW SPACING */
+.quarto-layout-row {
+  margin-bottom: 25px !important; /* SPACE BETWEEN TWO ROWS */
+  gap: 15px !important;
+}
+
+.custom-box {
+  padding: 12px !important;
+  font-weight: 600;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 55px;
+  border: 1px solid #2c3e50 !important;
+  box-shadow: inset 0 0 0 2px #fdfdfd, 0 3px 0 0 #2c3e50 !important;
+  border-radius: 4px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-box a {
+  text-decoration: none !important;
+  color: #2c3e50 !important;
+  display: block;
+  width: 100%;
+}
+
+/* 4. INTERACTIVE COLORS ON HOVER/CLICK */
+.box-home:hover { background-color: #0048af !important; border-color: #0d6efd !important; }
+.box-posts:hover { background-color: #0053c8 !important; border-color: #198754 !important; }
+.box-training:hover { background-color: #005de2 !important; border-color: #ffc107 !important; }
+.box-research:hover { background-color: #0068fb !important; border-color: #6f42c1 !important; }
+.box-about:hover { background-color: #9bc4ff !important; border-color: #dc3545 !important; }
+
+.custom-box:hover {
+  transform: translateY(-3px);
+  box-shadow: inset 0 0 0 2px #ffffff, 0 6px 0 0 #0d6efd !important;
+}
+
+/* 5. TEXT AREA WIDTH */
+.about-content {
+  width: 100% !important;
+  text-align: left !important;
+}
+</style>
